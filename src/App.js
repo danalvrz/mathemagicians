@@ -1,17 +1,22 @@
-import logo from './logo.png';
+import React from 'react';
+import Calculator from './components/Calculator';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Mathemagicians</h1>
-        <p>coming soon...</p>
-        <p>This is gonna be awesome!</p>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <body className="App-body">
+          <Calculator />
+        </body>
+      </div>
+    );
+  }
 }
 
 export default App;
