@@ -11,9 +11,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <body className="App-body">
+        <section className="App-body">
           <Calculator />
-        </body>
+        </section>
       </div>
     );
   }
