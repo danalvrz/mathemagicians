@@ -36,7 +36,7 @@ body {
 .bttn {
   background-color: #e0e0e0;
   border: 0.25px solid #bababa;
-  width: 24.75%;
+  width: 25%;
   height: 113px;
   display: flex;
   justify-content: center;
@@ -44,10 +44,18 @@ body {
   font-size: 3vw;
 }
 
+.bttn:hover {
+  background-color: #c6c6c6;
+}
+
 .operator {
   background-color: #f5913e;
 }
 
+.operator:hover {
+  background-color: #cb7937;
+}
+
 .zero {
-  flex-grow: 2;
+  flex-grow: 1;
 }
