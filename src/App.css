@@ -24,7 +24,7 @@ body {
 .result {
   margin: 0;
   padding: 30px;
-  font-size: 7vw;
+  font-size: 50px;
   text-align: end;
 }
 
@@ -37,11 +37,11 @@ body {
   background-color: #e0e0e0;
   border: 0.25px solid #bababa;
   width: 25%;
-  height: 113px;
+  height: 114.5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3vw;
+  font-size: 30px;
 }
 
 .bttn:hover {
