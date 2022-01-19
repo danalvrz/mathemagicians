@@ -54,7 +54,7 @@ function Calculator() {
         </span>
         <div className="calculatorCointainer">
           <div style={{ color: 'aliceblue' }} className="resultCointainer">
-            <p className="result">
+            <p className="result" id="resultDisplay">
               {calcObj.total}
       &nbsp;
               {calcObj.operation}

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header 1`] = `
+exports[`HeaderTesting Header snapshot 1`] = `
 <header
   className="menuContainer"
 >
