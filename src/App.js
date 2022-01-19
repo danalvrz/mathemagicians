@@ -1,7 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Calculator from './components/Calculator';
-import Header from './components/Header';
 import Home from './components/Home';
 import Quote from './components/Quote';
 import './App.css';
@@ -14,18 +13,19 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
-        <div className="App">
-          <section className="App-body">
-            <Header />
+
+      <div className="App">
+        <section className="App-body">
+          <Router>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route exact path="/" element={<Home />} />
               <Route path="/quote" element={<Quote />} />
               <Route path="/calculator" element={<Calculator />} />
             </Routes>
-          </section>
-        </div>
-      </Router>
+          </Router>
+        </section>
+      </div>
+
     );
   }
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import calculate from '../logic/calculate';
+import Header from './Header';
 
 const bttnList = [
   { class: ['bttn', 'operator'], name: 'AC' },
@@ -40,27 +41,30 @@ function Calculator() {
   }
 
   return (
-    <div className="cowculator">
-      <span
-        className="cowculatorLegend"
-        style={{ color: 'aliceblue' }}
-      >
-        Let&apos;s get crunchin&apos;!
-        <br />
-        moooooooooo!
-      </span>
-      <div className="calculatorCointainer">
-        <div style={{ color: 'aliceblue' }} className="resultCointainer">
-          <p className="result">
-            {calcObj.total}
+    <div>
+      <Header />
+      <div className="cowculator">
+        <span
+          className="cowculatorLegend"
+          style={{ color: 'aliceblue' }}
+        >
+          Let&apos;s get crunchin&apos;!
+          <br />
+          moooooooooo!
+        </span>
+        <div className="calculatorCointainer">
+          <div style={{ color: 'aliceblue' }} className="resultCointainer">
+            <p className="result">
+              {calcObj.total}
       &nbsp;
-            {calcObj.operation}
+              {calcObj.operation}
       &nbsp;
-            {calcObj.next}
-          </p>
-        </div>
-        <div className="buttons">
-          <Bttn arr={bttnList} />
+              {calcObj.next}
+            </p>
+          </div>
+          <div className="buttons">
+            <Bttn arr={bttnList} />
+          </div>
         </div>
       </div>
     </div>
