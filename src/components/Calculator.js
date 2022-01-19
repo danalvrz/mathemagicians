@@ -2,7 +2,7 @@ import React from 'react';
 import calculate from '../logic/calculate';
 
 const bttnList = [
-  { class: ['bttn'], name: 'AC' },
+  { class: ['bttn', 'operator'], name: 'AC' },
   { class: ['bttn'], name: '+/-' },
   { class: ['bttn'], name: '%' },
   { class: ['bttn', 'operator'], name: '÷' },
@@ -40,18 +40,27 @@ function Calculator() {
   }
 
   return (
-    <div className="calculatorCointainer">
-      <div className="resultCointainer">
-        <p className="result">
-          {calcObj.total}
+    <div className="cowculator">
+      <span
+        className="cowculatorLegend"
+      >
+        Let&apos;s get crunchin&apos;!
+        <br />
+        moooooooooo!
+      </span>
+      <div className="calculatorCointainer">
+        <div className="resultCointainer">
+          <p className="result">
+            {calcObj.total}
       &nbsp;
-          {calcObj.operation}
+            {calcObj.operation}
       &nbsp;
-          {calcObj.next}
-        </p>
-      </div>
-      <div className="buttons">
-        <Bttn arr={bttnList} />
+            {calcObj.next}
+          </p>
+        </div>
+        <div className="buttons">
+          <Bttn arr={bttnList} />
+        </div>
       </div>
     </div>
   );

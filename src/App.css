@@ -1,47 +1,61 @@
 body {
   display: flex;
   justify-content: center;
-  background-color: rgb(167, 166, 166);
+  background-color: rgb(21, 21, 21);
+}
+
+#root {
+  width: 100%;
+}
+
+.App-body {
+width: 100%;
 }
 
 .calculatorCointainer {
-  width: 800px;
-  height: 690px;
-  margin-top: 50px;
-  border: 0.25px solid #bababa;
+  width: 700px;
+  height: 531px;
 }
 
 .resultCointainer {
-  background-color: #858693;
+  background-color: #48484b;
   color: aliceblue;
   font-family: 'Courier New', sans-serif;
   font-weight: 900;
   margin-top: 0;
-  height: 16.67%;
+  margin-bottom: 5px;
+  height: 15%;
   border: 0.25px solid #bababa;
+  border-radius: 20px;
+  width: 85%;
 }
 
 .result {
   margin: 0;
   padding: 30px;
-  font-size: 50px;
+  font-size: 40px;
   text-align: end;
 }
 
 .buttons {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .bttn {
-  background-color: #e0e0e0;
+  background-color: #a0a0a0;
   border: 0.25px solid #bababa;
-  width: 25%;
-  height: 114.5px;
+  width: 20%;
+  height: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 20px;
+  margin: 5px;
+  transition: .3s;
 }
 
 .bttn:hover {
@@ -49,13 +63,137 @@ body {
 }
 
 .operator {
-  background-color: #f5913e;
+  background-color: rgb(167, 232, 211);
 }
 
 .operator:hover {
-  background-color: #cb7937;
+  background-color: rgb(196, 252, 235);
 }
 
 .zero {
-  flex-grow: 1;
+  flex-grow: .6;
+}
+
+.menuList {
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.menuList a {
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 25px;
+  font-family: 'Permanent Marker', cursive;
+  transition: .3s;
+}
+
+.menuList a:hover {
+  transform: rotate(0.5turn);
+  color: rgb(167, 232, 211);
+}
+
+.menuList li {
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.menuContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menuList {
+ display: flex;
+}
+
+.menuContainer h1 {
+  font-size: 70px;
+  margin-top: 10px;
+  margin-left: 60px;
+  font-family: 'Permanent Marker', cursive;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #106c7a 19%,
+    #13ffdc 47%,
+    rgb(167, 232, 211) 60%,
+    #13ffdc 70%,
+    #106c7a 80%,
+    #231557 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+  display: inline-block;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.cowculator {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-top: 0;
+  flex-wrap: wrap;
+}
+
+.cowculatorLegend {
+  font-size: 65px;
+  padding-top: 100px;
+  font-style: italic;
+  margin-left: 40px;
+  margin-bottom: 30px;
+  color: aliceblue;
+  font-family: 'Amatic SC', cursive;
+}
+
+.homeContainer {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 13%;
+}
+
+.homeTitle {
+  font-size: 55px;
+  color: rgb(167, 232, 211);
+  font-family: 'Amatic SC', cursive;
+}
+
+.homeText {
+  font-size: 20px;
+  text-align: justify;
+  line-height: 40px;
+  color: aliceblue;
+}
+
+.quotePage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.quoteText {
+  color: rgb(167, 232, 211);
+  font-family: 'Amatic SC', cursive;
+  font-size: 80px;
+}
+
+.quote {
+  color: aliceblue;
+  font-weight: 700;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
 }
