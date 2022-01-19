@@ -2,7 +2,7 @@ import React from 'react';
 
 const Quote = () => (
   <section className="quotePage">
-    <blockquote className="quote">
+    <blockquote className="quote" style={{ color: 'aliceblue' }}>
       <span className="quoteText">&quot;Avoid negativity, use Math.abs().&quot;</span>
       {' '}
       <br />

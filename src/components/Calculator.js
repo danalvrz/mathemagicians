@@ -43,13 +43,14 @@ function Calculator() {
     <div className="cowculator">
       <span
         className="cowculatorLegend"
+        style={{ color: 'aliceblue' }}
       >
         Let&apos;s get crunchin&apos;!
         <br />
         moooooooooo!
       </span>
       <div className="calculatorCointainer">
-        <div className="resultCointainer">
+        <div style={{ color: 'aliceblue' }} className="resultCointainer">
           <p className="result">
             {calcObj.total}
       &nbsp;
