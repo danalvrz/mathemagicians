@@ -17,7 +17,7 @@ This app is a React exercise to practice using the framework, routes, and basic 
 
 ## Live Demo
 
-[Live Demo Link](https://danalvrz.github.io/mathemagicians/public/)
+[Live Demo Link](https://danalvrz.github.io/mathemagicians/)
 
 
 
