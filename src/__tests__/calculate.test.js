@@ -3,12 +3,12 @@ import calculate from '../logic/calculate';
 describe('calcuate testing', () => {
   test('AC testing', () => {
     const obj = {
-      total: 0,
-      next: 0,
-      operation: 0,
+      total: 10,
+      next: 5,
+      operation: '+',
     };
     const buttonName = 'AC';
     const result = calculate(obj, buttonName);
-    expect(result).toBeNull({"next": null, "operation": null, "total": null});
+    expect(result).toMatchObject({ next: null, operation: null, total: null });
   });
 });
