@@ -1,0 +1,229 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatorTesting renders correctly 1`] = `
+<div>
+  <header
+    className="menuContainer"
+  >
+    <h1>
+      Mathemagicians
+    </h1>
+    <nav
+      className="menuList"
+    >
+      <a
+        href="#/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      |
+      <a
+        href="#/calculator"
+        onClick={[Function]}
+      >
+        Cowculator
+      </a>
+      |
+      <a
+        href="#/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </nav>
+  </header>
+  <div
+    className="cowculator"
+  >
+    <span
+      className="cowculatorLegend"
+      style={
+        Object {
+          "color": "aliceblue",
+        }
+      }
+    >
+      Let's get crunchin'!
+      <br />
+      moooooooooo!
+    </span>
+    <div
+      className="calculatorCointainer"
+    >
+      <div
+        className="resultCointainer"
+        style={
+          Object {
+            "color": "aliceblue",
+          }
+        }
+      >
+        <p
+          className="result"
+          id="resultDisplay"
+        >
+           
+           
+        </p>
+      </div>
+      <div
+        className="buttons"
+      >
+        <button
+          className="bttn operator"
+          name="AC"
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          className="bttn "
+          name="+/-"
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          className="bttn "
+          name="%"
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          className="bttn operator"
+          name="÷"
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          className="bttn "
+          name="7"
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          className="bttn "
+          name="8"
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          className="bttn "
+          name="9"
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          className="bttn operator"
+          name="x"
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+        <button
+          className="bttn "
+          name="4"
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          className="bttn "
+          name="5"
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          className="bttn "
+          name="6"
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          className="bttn operator"
+          name="-"
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+        <button
+          className="bttn "
+          name="1"
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          className="bttn "
+          name="2"
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          className="bttn "
+          name="3"
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="bttn operator"
+          name="+"
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+        <button
+          className="bttn zero"
+          name="0"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          className="bttn "
+          name="."
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+        <button
+          className="bttn operator"
+          name="="
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

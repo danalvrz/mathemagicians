@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeTesting renders correctly 1`] = `
+<div>
+  <header
+    className="menuContainer"
+  >
+    <h1>
+      Mathemagicians
+    </h1>
+    <nav
+      className="menuList"
+    >
+      <a
+        href="#/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      |
+      <a
+        href="#/calculator"
+        onClick={[Function]}
+      >
+        Cowculator
+      </a>
+      |
+      <a
+        href="#/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </nav>
+  </header>
+  <section
+    className="homeContainer"
+  >
+    <h2
+      className="homeTitle"
+    >
+      Welcome to the (number) jungle!
+    </h2>
+    <div
+      className="homeTextContainer"
+    >
+      <p
+        className="homeText"
+        style={
+          Object {
+            "color": "aliceblue",
+          }
+        }
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloremque dolores dolorum alias dignissimos fuga praesentium nemo quaerat molestiae expedita ut illo vel eveniet placeat, totam omnis sit maiores officia nam ea numquam. Possimus doloribus culpa, sit itaque quidem, modi minus voluptatem totam vero vitae voluptas a natus explicabo rem!
+      </p>
+      <p
+        className="homeText"
+        style={
+          Object {
+            "color": "aliceblue",
+          }
+        }
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta doloremque dolores dolorum alias dignissimos fuga praesentium nemo quaerat molestiae expedita ut illo vel eveniet placeat, totam omnis sit maiores officia nam ea numquam. Possimus doloribus culpa, sit itaque quidem, modi minus voluptatem totam vero vitae voluptas a natus explicabo rem!
+      </p>
+    </div>
+  </section>
+</div>
+`;

@@ -83,13 +83,16 @@ body {
   text-decoration: none;
   font-size: 25px;
   font-family: 'Permanent Marker', cursive;
-  transition: 0.3s;
-}
-
-.menuList li {
+  color: aliceblue;
   margin-left: 30px;
   margin-right: 50px;
-  margin-top: 30px;
+  margin-top: 50px;
+  transition: 1.5s;
+}
+
+.menuList a:hover {
+  color: rgb(167, 232, 211);
+  transform: scale(-1, 1);
 }
 
 .menuContainer {

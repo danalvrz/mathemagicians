@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTesting Header snapshot 1`] = `
+<header
+  className="menuContainer"
+>
+  <h1>
+    Mathemagicians
+  </h1>
+  <nav
+    className="menuList"
+  >
+    <a
+      href="#/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    |
+    <a
+      href="#/calculator"
+      onClick={[Function]}
+    >
+      Cowculator
+    </a>
+    |
+    <a
+      href="#/quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </nav>
+</header>
+`;

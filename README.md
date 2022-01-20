@@ -1,6 +1,6 @@
 # mathemagicians
 
-This app is a React exercise to practice using the framework, routes, and basic styling. It includes a fully functional calculator. Have fun!
+This app is a React exercise to practice using the front-end framework, React routes, and basic React styling. It includes a fully functional calculator. Have fun!
 
 ## Screenshot
 
@@ -28,7 +28,7 @@ To get a local copy up and running follow the instructions.
 
 ### Setup
 
-1. Open the terminal and clone the project using `git clone git@github.com:danalvrz/mathemagicians.git`
+1. Open the terminal and clone the project using `git@github.com:danalvrz/mathemagicians.git`
 
 ### Install
 

@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QuoteTesting renders correctly 1`] = `
+<div>
+  <header
+    className="menuContainer"
+  >
+    <h1>
+      Mathemagicians
+    </h1>
+    <nav
+      className="menuList"
+    >
+      <a
+        href="#/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      |
+      <a
+        href="#/calculator"
+        onClick={[Function]}
+      >
+        Cowculator
+      </a>
+      |
+      <a
+        href="#/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </nav>
+  </header>
+  <section
+    className="quotePage"
+  >
+    <blockquote
+      className="quote"
+      style={
+        Object {
+          "color": "aliceblue",
+        }
+      }
+    >
+      <span
+        className="quoteText"
+      >
+        "Avoid negativity, use Math.abs()."
+      </span>
+       
+      <br />
+      - Just another alge'bro
+    </blockquote>
+  </section>
+</div>
+`;
