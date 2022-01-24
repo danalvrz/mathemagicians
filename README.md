@@ -18,6 +18,7 @@ This app is a React exercise to practice using the front-end framework, React ro
 ## Live Demo
 
 [Live Demo Link](https://danalvrz.github.io/mathemagicians/)
+
 [Heroku Link](https://warm-stream-09966.herokuapp.com/#/)
 
 
