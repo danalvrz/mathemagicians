@@ -21,6 +21,8 @@ This app is a React exercise to practice using the front-end framework, React ro
 
 [Heroku Link](https://warm-stream-09966.herokuapp.com/#/)
 
+[Netlify Link](https://gallant-yonath-8025ca.netlify.app/)
+
 
 
 ## Getting Started
